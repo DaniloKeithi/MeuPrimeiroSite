@@ -1,1 +1,16 @@
-body{background-color: #F5F5DC;}
+body{
+    background-color: #F5F5DC;
+}
+
+.img_topo{
+    width: 70%;
+}
+
+figure {
+    text-align: center;
+}
+
+.img_corpo{
+    width: 70%;
+}
+-
