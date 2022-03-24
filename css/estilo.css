@@ -13,4 +13,8 @@ figure {
 .img_corpo{
     width: 70%;
 }
--
+
+    .container{
+        width: 80%;
+        margin: auto;
+    }
