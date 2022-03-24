@@ -3,7 +3,7 @@ body{
 }
 
 .img_topo{
-    width: 70%;
+    width: 50%;
 }
 
 figure {
@@ -11,10 +11,21 @@ figure {
 }
 
 .img_corpo{
-    width: 70%;
+    width: 65%;
 }
 
     .container{
         width: 80%;
         margin: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    
+    p{
+        
+        font-size: 1.5em;
+        text-align: justify;
+        text-indent: 20px;
+
     }
