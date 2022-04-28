@@ -20,6 +20,9 @@ figure {
     }
     h1{
         text-align: center;
+        text-decoration: overline;
+        color:#32CD32;
+         font-weight: bolder
     }
     
     p{
@@ -27,5 +30,8 @@ figure {
         font-size: 1.5em;
         text-align: justify;
         text-indent: 20px;
+        color:#0000FF;
+        font-weight: bolder;
+
 
     }
