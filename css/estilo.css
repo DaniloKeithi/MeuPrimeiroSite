@@ -6,6 +6,15 @@
         width: 50%;
     }
 
+    .menu { 
+        padding: 2%;
+        background-color: beige;
+    }
+
+    .itens_menu{
+        text-align: center;
+    }
+
     figure {
         text-align: center;
     }
@@ -18,11 +27,16 @@
         width: 80%;
         margin: auto;
     }
-    h1{
+    h1{ 
+        font-size: 2em;
+        padding-top: 1%;
+        padding-bottom: 1%;
         text-align: center;
         text-decoration: overline;
         color:#32CD32;
-         font-weight: bolder
+        font-weight: bolder
+        
+        
     }
     
     p{
