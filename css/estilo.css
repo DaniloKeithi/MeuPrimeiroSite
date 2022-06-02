@@ -17,6 +17,7 @@
 
     .itens_menu{
         text-align: center;
+        line-height: 1.3em;
     
     }
 
@@ -112,5 +113,25 @@
     .agaum{
         padding-top: 4%;
     }
+
+    /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
     
 
