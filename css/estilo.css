@@ -20,6 +20,27 @@
         line-height: 2.5em;
     
     }
+     
+    /* unvisited link */
+a:link {
+    color: 	#32CD32;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #DAA520;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+    
 
     .itens_menu a:link, .itens_menu a:visited {
     
@@ -135,24 +156,5 @@
         padding-top: 4%;
     }
 
-    /* unvisited link */
-a:link {
-    color: 	#32CD32;
-  }
   
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #DAA520;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
-    
 
