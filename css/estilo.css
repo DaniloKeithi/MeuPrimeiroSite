@@ -168,7 +168,16 @@ a:link {
     .agaum{
         padding-top: 4%;
     }
-    .center
+    table{
+        border-collapse: collapse;
+        border: #DAA520;
+        width: 100%;
+    }
+    td, th{
+        border: 1px solid #9ACD32;
+        
+    }
+
 
   
 
