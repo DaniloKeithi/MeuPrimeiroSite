@@ -174,8 +174,16 @@ a:link {
         width: 100%;
     }
     td, th{
-        border: 1px solid #9ACD32;
-        
+        border: 1px solid #2e4401;
+        text-align: left;
+        padding: 8px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .th{
+        background-color: #8B4513;
+        text-align: center;
+        width: 5%;
     }
 
 
