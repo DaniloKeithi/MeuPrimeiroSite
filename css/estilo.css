@@ -1,4 +1,4 @@
-    body{
+        body{
         background-color: #F0E68C;
     
     }
@@ -185,7 +185,23 @@ a:link {
         background-color: #8B4513;
         text-align: center;
         width: 5%;
+    } 
+
+    input[type=text], select,  input[type=tel],   input[type=email] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid ;
+        border-radius: 4px;
+        box-sizing: border-box;
     }
+    
+input[type=radio], label{
+    display: inline-block;
+}
+
+  
 
 
   
