@@ -22,6 +22,7 @@
     .itens_menu{
         text-align: center;
         line-height: 2.5em;
+        
     
     }
      
@@ -68,7 +69,8 @@ a:link {
 
     .img_corpo{
         width: 65%;
-        margin-bottom: 2%;
+        margin-bottom: 3%;
+        
     
     }
 
@@ -85,7 +87,10 @@ a:link {
         text-align: center;
         text-decoration: overline;
         color:#9ACD32;
-        font-weight: bolder
+        font-weight: bolder;
+        font-family: 'Righteous', cursive;
+        
+        
         
         }
     
@@ -96,8 +101,10 @@ a:link {
         text-indent: 25px;
         color:#1E90FF;
         font-weight: bolder;
+        font-family: 'DynaPuff', cursive;
     
     }
+
 
     .parag_letra > p{ 
         text-align: center;
@@ -243,6 +250,14 @@ label{
     content: "";
     display: table;
     clear: both;
+}
+
+@media screen and (max-width: 400px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0; 
+    
+}
 }
 
   
