@@ -28,6 +28,87 @@
             background-color: beige;
         }
 
+        .container{
+            position:relative;
+            background-color: whitesmoke;
+            width: 100%;
+            height: 600px;
+            text-align: center;
+        }
+
+        .main{
+            width: 100%;
+            height: 600px;
+            background-color: bisque;
+            position: relative;
+        }
+
+        .topoesq{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: purple;
+
+        }
+
+        .topodir{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: green;
+
+        }
+
+        .baixoesq{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: yellow;
+
+        }
+
+        
+        .baixodir{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color:blue;
+
+        }
+
+        .centro{
+            position: absolute;
+            width: 20%;
+            background-color:red;
+            top: 300px;
+            right: 40%;
+
+
+        }
+
+        .fixo{
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+        }
+
+        header{
+            margin-top: 100px;
+        }
+
+      
+
 
 
 
@@ -36,13 +117,28 @@
 
 
     <body>
-        <h1>ESTILO CSS INTERNO</h1>
+        <header>
+            <h1 class="fixo">ESTILO CSS INTERNO</h1>
+            <p>> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente nobis deserunt sequi, in dolor minima delectus similique inventore iure beatae quis repellat vel asperiores facilis quia quibusdam, earum quae necessitatibus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptatibus minima inventore voluptate veritatis aliquam earum in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptatibus minima inventore voluptate veritatis aliquam earum in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptatibus minima inventore voluptate veritatis aliquam earum in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptati bus minima inventore voluptate veritatis aliquam earum in.</p>
+        </header>  
+        <div class="container"> 
         
-        <p>> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente nobis deserunt sequi, in dolor minima delectus similique inventore iure beatae quis repellat vel asperiores facilis quia quibusdam, earum quae necessitatibus?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptatibus minima inventore voluptate veritatis aliquam earum in.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptatibus minima inventore voluptate veritatis aliquam earum in.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptatibus minima inventore voluptate veritatis aliquam earum in.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus a, molestiae explicabo dolores sint facere quisquam ea aspernatur dignissimos quos non voluptati bus minima inventore voluptate veritatis aliquam earum in.</p>
+            <div class="main"> 
+                <div class="topoesq">topo esquerdo</div>
+                <div class="centro">centro</div>
+                <div class="topodir">topo direita</div>
+                <div class="baixoesq">baixo esquerda</div>
+                <div class="baixodir">baixo direita</div>
+            </div>
+        </div>
+     
+     
+        
+     
     
         <ul>
             <li style="color: grey;font-size: 1.5em;">Estou com sono</li>
