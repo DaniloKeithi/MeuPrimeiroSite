@@ -3,11 +3,6 @@
     
     }
 
-    .logo{
-        width: 20%;
-        text-align: center;
-       
-    }
 
     .img_topo{
         width: 100%;
@@ -27,7 +22,9 @@
 
    header{
         padding: 2%;
-        background-color: green;
+        background-color: rgb(27, 85, 247);
+        display: flex;
+        flex-direction: column;
 
 
    }
@@ -37,15 +34,14 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1030;
    }
 
         
-
-    .itens_menu{
-        text-align: center;
-        line-height: 2.5em;
-        
-    
+.itens_menu{
+    text-align: center;
+    padding: 1%;
+    color: #fff;
     }
      
 
@@ -109,7 +105,7 @@ a:link {
         padding-bottom: 1%;
         text-align: center;
         text-decoration: overline;
-        color:#9ACD32;
+        color:#0f8d03;
         font-weight: bolder;
         font-family: 'Righteous', cursive;
         
@@ -247,7 +243,7 @@ input[type=submit] {
 
 label{
     width: 50%;
-    display: inline-block;
+    display: inline-block;  
 }
 
 .form{
@@ -275,20 +271,64 @@ label{
     clear: both;
 }
 
-@media screen and (max-width: 400px) {
-    .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0; 
+@media screen and (max-width: 600px) {
+
+    .col-25, .col-75, input[type=submit]{
+            width: 100%;
+            margin-top: 0;
+
+    }
+
+    .form{
+        background-color: rgba(9, 7, 6, 0.6);
+    }
+
+    .logo{
+        text-align: center;
+        color: #fff;
+    }
+
+    .banner{
+        margin-top: 20%;
+
+    }
     
-}
-
-}
-
-@media screen and (min-width: 800px) {
+   
+    
+  }
+/* Aplicar alterações quando a tela for maior que 800px */
+  @media screen and (min-width: 601px) {
 
     header{
-        background-color: #87b4de;
+        background-color: #0051ad;
         flex-direction: row;
+    }
+
+    .itens_menu{
+        position: absolute;
+        right: 2%;
+        width: 70%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+
+    }
+
+    .logo{
+        text-align: left;
+        width: 40%;
+        color: #fff;
+    }
+
+    .banner{
+
+        margin-top: 5%;
+    }
+
+    .img_logo{
+        width: 40%;
     }
 
   
